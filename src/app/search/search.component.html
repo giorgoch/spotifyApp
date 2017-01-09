@@ -1,3 +1,9 @@
-<p>
-  search works!
-</p>
+<h1>Need Music ?</h1>
+<p class="lead">Use the Spotify app to browse new Releases and find out your favorites songs.</p>
+<p>All you get is this text and a mostly barebones HTML document .</p>
+
+<form>
+    <div class="form-group">
+        <input type="text" name="searchStr" [(mgModel)]="searchStr" (keyup)="searchMusic()" class="form-control" placeholder="Search Music ....">
+    </div>
+</form>
