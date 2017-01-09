@@ -8,6 +8,7 @@ import { ModuleWithProviders }  from '@angular/core';
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
+
 })
 export class NavbarComponent implements OnInit {
 
