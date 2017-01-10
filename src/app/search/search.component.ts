@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from "../service/spotify.service";
 import { Artist } from "../model/artist.model"
+import { RouterModule }   from '@angular/router';
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.css'],
-  providers: [SpotifyService]
+  providers: [SpotifyService],
+  
 })
 export class SearchComponent implements OnInit {
 
@@ -23,7 +25,7 @@ searchRes :Artist[];
     console.log(this.searchStr);
     this._spotifyService.searchMusic(this.searchStr)
     .subscribe(res => {
-      //console.log(res.artists.items);
+     // console.log(res.artists.items);
       this.searchRes= res.artists.items;
     })
   }
