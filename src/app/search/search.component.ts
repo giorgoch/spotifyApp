@@ -27,6 +27,7 @@ searchRes :Artist[];
     .subscribe(res => {
      // console.log(res.artists.items);
       this.searchRes= res.artists.items;
+      console.log(res.artists.items);
     })
   }
 
