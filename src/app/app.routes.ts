@@ -12,7 +12,7 @@ const appRoutes: Routes = [
     { path: '', component: SearchComponent },
     { path: 'about', component: AboutComponent },
     {path:'artist/:id',component:ArtistComponent},
-    {path:'',component:AlbumComponent}
+    {path:'album/:id',component:AlbumComponent}
 ];
 
 export const appRouterProviders = RouterModule.forRoot(appRoutes);

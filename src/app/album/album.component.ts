@@ -12,8 +12,8 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./album.component.css']
 })
 export class AlbumComponent implements OnInit {
-    id: string;
-  artist: Artist[];
+
+  id: string;
   album: Album[];
 
   constructor(private _spotifyService: SpotifyService, private _route: ActivatedRoute) { }
