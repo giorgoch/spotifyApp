@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 import { appRouterProviders} from "./app.routes";
+import { SpotifyService} from "./service/spotify.service";
 
 @NgModule({
   declarations: [
@@ -21,8 +22,8 @@ import { appRouterProviders} from "./app.routes";
     BrowserModule,
     FormsModule,
     HttpModule,
-    appRouterProviders,
-    HttpModule
+    appRouterProviders
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
