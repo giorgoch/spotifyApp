@@ -11,8 +11,10 @@
             <div *ngFor="let album of albums">
                 <div class="col-md-3">
                     <div class="well album">
-                        <div *ngIf="album.images.length > 0 
-                          <img class=" album-thumb img-thumbnail " src="{{album.images[0].url}} ">
+                        <div *ngIf="album.images.length > 0 ">
+                            <img class=" album-thumb img-thumbnail " src="{{album.images[0].url}} " width="250px">
+                            <h4>{{album.name}}</h4>
+                            <a class="btn btn-default btn-block">Album Details </a>
                         </div>
                     </div>
                 </div>
