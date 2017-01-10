@@ -27,7 +27,7 @@ import { ArtistComponent } from './artist/artist.component';
     appRouterProviders
     
   ],
-  providers: [],
+  providers: [SpotifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
