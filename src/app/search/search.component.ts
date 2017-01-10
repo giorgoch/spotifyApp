@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SpotifyService } from "../service/spotify.service";
 
 @Component({
   selector: 'app-search',
@@ -7,13 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  constructor() { }
+  searchStr: string;
+
+
+  constructor(private _spotifyService: SpotifyService) { }
 
   ngOnInit() {
   }
 
-  searchMusic(){
-    
+  searchMusic() {
+    console.log(this.searchStr);
+    this._spotifyService.searchMusic(this.searchStr)
+    .subscribe(res => {
+      console.log(res.artists.items);
+    })
   }
 
 }
