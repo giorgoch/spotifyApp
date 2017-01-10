@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "spotify",
+=======
+  "name": "spotify-app",
+>>>>>>> d88f20f86f03ae1bf23e56a730134c48f0e5d513
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},

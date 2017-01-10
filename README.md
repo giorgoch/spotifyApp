@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Spotify
+=======
+<<<<<<< HEAD
+# SpotifyApp
+>>>>>>> d88f20f86f03ae1bf23e56a730134c48f0e5d513
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
@@ -29,3 +34,9 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<<<<<<< HEAD
+=======
+=======
+# spotifyApp
+>>>>>>> e99453ae9ee3b28c1f56c7f85a16419a55448833
+>>>>>>> d88f20f86f03ae1bf23e56a730134c48f0e5d513
